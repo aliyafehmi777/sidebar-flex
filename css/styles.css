@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 120%;
+    width: 12%;
+    font-size: 1.5rem;
+    position: fixed;
+}
+.sidebar > ul {
+    color: rgb(69, 70, 151);
+    background-color: #b19b9b;
+    flex: 5;
+    line-height: 6rem;
+    justify-items: right;
+    align-items: center;
+}
+li{
+     list-style-type: none;
+}
